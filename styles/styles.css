@@ -1,0 +1,41 @@
+.navbar-default {
+  background-color: #2C3E50;
+  border-color: #2C3E50;
+}
+.navbar-default .navbar-brand {
+  color: #fafafa;
+  font-family: 'Cabin', sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+.navbar-default .navbar-nav li a {
+  color: #fafafa;
+  font-family: 'Cabin', sans-serif;
+}
+.navbar-default .navbar-toggle {
+  background-color: #fafafa;
+  font-family: 'Cabin', sans-serif;
+}
+header {
+  text-align: center;
+  background: #6c8672;
+  color: white;
+}
+header .container {
+  padding-top: 6em;
+  padding-bottom: 3em;
+}
+header img {
+  display: block;
+  margin: 0 auto 1.5em;
+  border-radius: 50%;
+}
+header .header-text {
+  font-family: 'Cabin', sans-serif;
+  color: #fafafa;
+  letter-spacing: 0.1em;
+}
+header .header-text h1,
+header .header-text h2 {
+  font-weight: 700;
+}

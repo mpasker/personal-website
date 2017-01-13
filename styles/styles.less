@@ -1,0 +1,43 @@
+@import "variables.less";
+
+.navbar-default {
+    background-color: @navColor;
+    border-color: @navColor;
+    .navbar-brand {
+        color: @secondColor;
+        font-family: @font;
+        font-size: 2em;
+        text-transform: uppercase;
+    }
+    .navbar-nav li a {
+        color: @secondColor;
+        font-family: @font;
+    }
+    .navbar-toggle {
+        background-color: @secondColor;
+        font-family: @font;
+    }
+}
+
+header {
+  text-align: center;
+  background: @mainColor;
+  color: white;
+  .container {
+      padding-top: 6em;
+      padding-bottom: 3em;
+  }
+  img {
+      display: block;
+      margin: 0 auto 1.5em;
+      border-radius: 50%;
+  }
+  .header-text {
+      font-family: @font;
+      color: @secondColor;
+      letter-spacing: 0.1em;
+      h1, h2 {
+          font-weight: 700;
+      }
+  }
+}
