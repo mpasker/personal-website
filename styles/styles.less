@@ -1,4 +1,5 @@
 @import "variables.less";
+@import "mixins.less";
 
 .navbar-default {
     background-color: @navColor;
@@ -8,6 +9,7 @@
         font-family: @font;
         font-size: 2em;
         text-transform: uppercase;
+        letter-spacing: 0.05em;
     }
     .navbar-nav li a {
         color: @secondColor;
@@ -26,6 +28,7 @@ header {
   .container {
       padding-top: 6em;
       padding-bottom: 3em;
+      .scroll-over;
   }
   img {
       display: block;
@@ -38,6 +41,16 @@ header {
       letter-spacing: 0.1em;
       h1, h2 {
           font-weight: 700;
-      }
-  }
+        }
+    }
+}
+#about {
+    background-color: @secondColor;
+    padding-top: 6em;
+    padding-bottom: 3em;
+    .col-lg-4 {
+        border: 1px solid red;
+        text-align: center;
+        font-family: @font;
+    }
 }

@@ -1,3 +1,12 @@
+.scroll-over {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .navbar-default {
   background-color: #2C3E50;
   border-color: #2C3E50;
@@ -7,6 +16,7 @@
   font-family: 'Cabin', sans-serif;
   font-size: 2em;
   text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 .navbar-default .navbar-nav li a {
   color: #fafafa;
@@ -18,12 +28,19 @@
 }
 header {
   text-align: center;
-  background: #6c8672;
+  background: #1d9c72;
   color: white;
 }
 header .container {
   padding-top: 6em;
   padding-bottom: 3em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 header img {
   display: block;
@@ -38,4 +55,14 @@ header .header-text {
 header .header-text h1,
 header .header-text h2 {
   font-weight: 700;
+}
+#about {
+  background-color: #fafafa;
+  padding-top: 6em;
+  padding-bottom: 3em;
+}
+#about .col-lg-4 {
+  border: 1px solid red;
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
 }
