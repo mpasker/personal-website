@@ -9,5 +9,7 @@ $('document').ready(function() {
         offset: 51
     });
     // Disable autoscroll from Boostrap carousel
-    $('.carousel').carousel('pause');
+    $('.carousel').carousel({
+        interval: false
+    });
 });
