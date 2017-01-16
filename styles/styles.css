@@ -34,13 +34,6 @@ header .container {
   padding-top: 6em;
   padding-bottom: 3em;
   height: 50em;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 header img {
   display: block;
@@ -121,4 +114,18 @@ header .header-text h2 {
 #projects .carousel-control.left,
 #projects .carousel-control.right {
   background-image: none;
+}
+#contact {
+  background-color: #e8e8e8;
+  font-family: 'Cabin', sans-serif;
+}
+#contact h1 {
+  font-weight: 900;
+}
+#contact ul li {
+  display: inline-block;
+}
+#contact a {
+  text-decoration: none;
+  color: #2C3E50;
 }
