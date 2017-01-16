@@ -124,6 +124,7 @@ header .header-text h2 {
 }
 #contact ul li {
   display: inline-block;
+  padding-left: 1em;
 }
 #contact a {
   text-decoration: none;
