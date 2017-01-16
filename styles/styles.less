@@ -34,10 +34,11 @@ header {
   text-align: center;
   background: @mainColor;
   color: white;
-  .scroll-over;
   .container {
       padding-top: 6em;
       padding-bottom: 3em;
+      height: 50em;
+      .scroll-over;
   }
   img {
       display: block;
@@ -62,6 +63,7 @@ header {
         text-align: center;
         font-family: @font;
         font-weight: 700;
+        padding-bottom: 3em;
     }
     hr {
         border-color: @navColor;
@@ -88,5 +90,29 @@ header {
             text-align: center;
             font-size: 1.2em;
         }
+    }
+}
+#projects {
+    text-align: center;
+    background-color: @secondColor;
+    padding-top: 6em;
+    padding-bottom: 3em;
+    h1 {
+        font-family: @font;
+        font-weight: 800;
+        // margin-bottom: 1.5em;
+        color: @navColor;
+        text-transform: uppercase;
+    }
+    #folder-icon {
+        color: @navColor;
+        margin-bottom: 1.25em;
+    }
+    i, h4 {
+        text-decoration: none;
+        color: #FAF0E6;
+    }
+    .carousel-control.left, .carousel-control.right {
+    background-image: none;
     }
 }

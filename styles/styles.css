@@ -29,6 +29,11 @@ header {
   text-align: center;
   background: #1d9c72;
   color: white;
+}
+header .container {
+  padding-top: 6em;
+  padding-bottom: 3em;
+  height: 50em;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -36,10 +41,6 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-header .container {
-  padding-top: 6em;
-  padding-bottom: 3em;
 }
 header img {
   display: block;
@@ -65,6 +66,7 @@ header .header-text h2 {
   text-align: center;
   font-family: 'Cabin', sans-serif;
   font-weight: 700;
+  padding-bottom: 3em;
 }
 #about hr {
   border-color: #2C3E50;
@@ -94,4 +96,29 @@ header .header-text h2 {
     text-align: center;
     font-size: 1.2em;
   }
+}
+#projects {
+  text-align: center;
+  background-color: #fafafa;
+  padding-top: 6em;
+  padding-bottom: 3em;
+}
+#projects h1 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 800;
+  color: #2C3E50;
+  text-transform: uppercase;
+}
+#projects #folder-icon {
+  color: #2C3E50;
+  margin-bottom: 1.25em;
+}
+#projects i,
+#projects h4 {
+  text-decoration: none;
+  color: #FAF0E6;
+}
+#projects .carousel-control.left,
+#projects .carousel-control.right {
+  background-image: none;
 }
