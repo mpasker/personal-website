@@ -1,11 +1,5 @@
-.scroll-over {
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.navbar {
+  min-height: 65px;
 }
 .navbar-default {
   background-color: #2C3E50;
@@ -17,23 +11,24 @@
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  padding: 20px 20px;
 }
 .navbar-default .navbar-nav li a {
   color: #fafafa;
   font-family: 'Cabin', sans-serif;
+  padding: 20px 20px;
 }
 .navbar-default .navbar-toggle {
   background-color: #fafafa;
   font-family: 'Cabin', sans-serif;
 }
+.navbar-default .navbar-right {
+  font-size: 1.5em;
+}
 header {
   text-align: center;
   background: #1d9c72;
   color: white;
-}
-header .container {
-  padding-top: 6em;
-  padding-bottom: 3em;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -41,6 +36,10 @@ header .container {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+header .container {
+  padding-top: 6em;
+  padding-bottom: 3em;
 }
 header img {
   display: block;
@@ -55,14 +54,44 @@ header .header-text {
 header .header-text h1,
 header .header-text h2 {
   font-weight: 700;
+  color: #e8e8e8;
 }
 #about {
-  background-color: #fafafa;
+  background-color: #e8e8e8;
   padding-top: 6em;
   padding-bottom: 3em;
 }
-#about .col-lg-4 {
-  border: 1px solid red;
+#about .about {
   text-align: center;
   font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+}
+#about hr {
+  border-color: #2C3E50;
+  padding-bottom: 2em;
+  border-width: 0.25em;
+}
+#about h1 {
+  text-transform: lowercase;
+  font-weight: 800;
+  color: #2C3E50;
+}
+#about .fa {
+  color: #2C3E50;
+  padding-bottom: 0.75em;
+}
+#about ul,
+#about li {
+  list-style-type: circle;
+  padding-bottom: 0.5em;
+  line-height: 2em;
+  font-size: 1.05em;
+  text-align: left;
+}
+@media (max-width: 767px) {
+  #about ul,
+  #about li {
+    text-align: center;
+    font-size: 1.2em;
+  }
 }

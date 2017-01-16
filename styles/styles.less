@@ -1,6 +1,10 @@
 @import "variables.less";
 @import "mixins.less";
 
+.navbar {
+        min-height: 65px;
+}
+
 .navbar-default {
     background-color: @navColor;
     border-color: @navColor;
@@ -10,14 +14,19 @@
         font-size: 2em;
         text-transform: uppercase;
         letter-spacing: 0.05em;
+        padding: 20px 20px;
     }
     .navbar-nav li a {
         color: @secondColor;
         font-family: @font;
+        padding: 20px 20px;
     }
     .navbar-toggle {
         background-color: @secondColor;
         font-family: @font;
+    }
+    .navbar-right {
+        font-size: 1.5em;
     }
 }
 
@@ -25,10 +34,10 @@ header {
   text-align: center;
   background: @mainColor;
   color: white;
+  .scroll-over;
   .container {
       padding-top: 6em;
       padding-bottom: 3em;
-      .scroll-over;
   }
   img {
       display: block;
@@ -41,16 +50,43 @@ header {
       letter-spacing: 0.1em;
       h1, h2 {
           font-weight: 700;
+          color: @thirdColor;
         }
     }
 }
 #about {
-    background-color: @secondColor;
+    background-color: @thirdColor;
     padding-top: 6em;
     padding-bottom: 3em;
-    .col-lg-4 {
-        border: 1px solid red;
+    .about {
         text-align: center;
         font-family: @font;
+        font-weight: 700;
+    }
+    hr {
+        border-color: @navColor;
+        padding-bottom: 2em;
+        border-width: 0.25em;
+    }
+    h1 {
+        text-transform: lowercase;
+        // padding-bottom: 1em;
+        font-weight: 800;
+        color: @navColor;
+    }
+    .fa {
+        color: @navColor;
+        padding-bottom: 0.75em;
+    }
+    ul, li {
+        list-style-type: circle;
+        padding-bottom: 0.5em;
+        line-height: 2em;
+        font-size: 1.05em;
+        text-align: left;
+        @media (max-width: 767px) {
+            text-align: center;
+            font-size: 1.2em;
+        }
     }
 }
