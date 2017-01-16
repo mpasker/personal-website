@@ -118,15 +118,36 @@ header .header-text h2 {
 #contact {
   background-color: #e8e8e8;
   font-family: 'Cabin', sans-serif;
+  padding-top: 6em;
+  padding-bottom: 3em;
+  text-align: left;
+}
+@media (max-width: 767px) {
+  #contact {
+    text-align: center;
+  }
 }
 #contact h1 {
   font-weight: 900;
 }
-#contact ul li {
+#contact h4 {
+  padding-top: 1.5em;
+}
+#contact ul {
+  padding-left: 0;
+}
+#contact li:nth-child(2),
+#contact li:nth-child(3) {
+  padding-left: 1.5em;
+}
+#contact li {
   display: inline-block;
-  padding-left: 1em;
+  padding-top: 2em;
 }
 #contact a {
   text-decoration: none;
   color: #2C3E50;
+}
+#contact a:hover {
+  color: #000080;
 }

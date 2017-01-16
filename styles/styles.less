@@ -118,15 +118,34 @@ header {
 #contact {
     background-color: @thirdColor;
     font-family: @font;
+    padding-top: 6em;
+    padding-bottom: 3em;
+    text-align: left;
+    @media (max-width: 767px) {
+        text-align: center;
+    }
     h1 {
         font-weight: 900;
     }
-    ul li {
+    h4 {
+        padding-top: 1.5em;
+    }
+    ul {
+        padding-left: 0;
+    }
+    li:nth-child(2), li:nth-child(3) {
+        padding-left: 1.5em;
+    }
+    li {
         display: inline-block;
-        padding-left: 1em;
+        padding-top: 2em;
+        // padding-left: 1em;
     }
     a {
         text-decoration: none;
         color: @navColor;
+    }
+    a:hover {
+        color: #000080;
     }
 }
