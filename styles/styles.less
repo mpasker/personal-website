@@ -16,10 +16,16 @@
         letter-spacing: 0.05em;
         padding: 20px 20px;
     }
+    .navbar-brand:hover {
+        color: @secondColor;
+    }
     .navbar-nav li a {
         color: @secondColor;
         font-family: @font;
         padding: 20px 20px;
+    }
+    .navbar-nav li a:hover {
+        color: @secondColor;
     }
     .navbar-toggle {
         background-color: @secondColor;
@@ -33,7 +39,7 @@
 header {
   text-align: center;
   background: @mainColor;
-  color: white;
+  color: @secondColor;
   .container {
       padding-top: 6em;
       padding-bottom: 3em;
@@ -71,7 +77,6 @@ header {
     }
     h1 {
         text-transform: lowercase;
-        // padding-bottom: 1em;
         font-weight: 800;
         color: @navColor;
     }
@@ -80,7 +85,7 @@ header {
         padding-bottom: 0.75em;
     }
     ul, li {
-        list-style-type: circle;
+        list-style-type: square;
         padding-bottom: 0.5em;
         line-height: 2em;
         font-size: 1.05em;
@@ -99,7 +104,6 @@ header {
     h1 {
         font-family: @font;
         font-weight: 800;
-        // margin-bottom: 1.5em;
         color: @navColor;
         text-transform: uppercase;
     }
@@ -126,22 +130,23 @@ header {
     }
     h1 {
         font-weight: 900;
+        color: @navColor;
     }
     h4 {
         padding-top: 1.5em;
+        color: @navColor;
     }
     ul {
         padding-left: 0;
+        padding-top: 2em;
     }
     li:nth-child(2), li:nth-child(3) {
         padding-left: 1.5em;
     }
     li {
         display: inline-block;
-        padding-top: 2em;
-        // padding-left: 1em;
     }
-    a {
+    a, a:visited {
         text-decoration: none;
         color: @navColor;
     }
