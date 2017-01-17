@@ -12,4 +12,13 @@ $('document').ready(function() {
     $('.carousel').carousel({
         interval: false
     });
+    //increase font awesome arrow icon size on hover
+    var arrow = $('.fa-angle-double-up');
+    $('#arrow-container i').hover(function() {
+        arrow.removeClass('fa-4x');
+        arrow.addClass('fa-5x');
+    }, function() {
+        arrow.addClass('fa-4x');
+        arrow.removeClass('fa-5x');
+    });
 });
