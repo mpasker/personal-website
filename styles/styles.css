@@ -46,6 +46,11 @@ header img {
   margin: 0 auto 1.5em;
   border-radius: 50%;
 }
+@media (max-width: 767px) {
+  header img {
+    border-radius: 0;
+  }
+}
 header .header-text {
   font-family: 'Cabin', sans-serif;
   color: #fafafa;
@@ -116,6 +121,9 @@ header .header-text h2 {
 #projects h4 {
   text-decoration: none;
   color: #FAF0E6;
+}
+#projects .carousel {
+  margin-bottom: 5em;
 }
 #projects .carousel-control.left,
 #projects .carousel-control.right {

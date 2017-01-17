@@ -49,6 +49,9 @@ header {
       display: block;
       margin: 0 auto 1.5em;
       border-radius: 50%;
+      @media (max-width: 767px) {
+          border-radius: 0;
+      }
   }
   .header-text {
       font-family: @font;
@@ -114,6 +117,9 @@ header {
     i, h4 {
         text-decoration: none;
         color: #FAF0E6;
+    }
+    .carousel {
+        margin-bottom: 5em;
     }
     .carousel-control.left, .carousel-control.right {
     background-image: none;
